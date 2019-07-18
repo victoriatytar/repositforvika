@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Return to main page</a>
+    </nav>
+    <br>
+    <header>Парламентські вибори 2019</header>
+    <p>introduction.............</p>
+    <p>Просимо відповісти на запитання....</p>
+
+    <form action="https://formspree.io/victoria.tytar@gmail.com" method="POST">
+
+        <p>1.Кого з кандидатів ви обрали на президентських виборах?</p>
+        <input type="radio" name="candidate" value="Порошенко">Порошенко<br>
+        <input type="radio" name="candidate" value="Зеленський">Зеленський<br>
+        <input type="radio" name="candidate" value="Інший">Інший<br>
+        <br>
+        <p>2.Яку з політичних сил вважаєте достойною перемоги на майбутніх парламентських виборах?</p>
+        <input type="checkbox" name="party" value="Голос">Голос<br>
+        <input type="checkbox" name="party" value="Європейська солідарність">Європейська солідарність<br>
+        <input type="checkbox" name="party" value="Батьківщина">Батьківщина<br>
+        <input type="checkbox" name="party" value="Опозиційна платформа">Опозиційна платформа<br>
+        <input type="checkbox" name="party" value="Слуга народу">Слуга народу<br>
+        <br>
+        <p>3.Вкажіть, будь ласка, вашу стать:</p>
+        <input type="radio" name="gender" value="male">Чоловіча<br>
+        <input type="radio" name="gender" value="female">Жіноча<br>
+        <br>
+        <p>4.Вкажіть, будь ласка, ваш рівень доходу:</p>
+        <input type="range" name="income" min="0" max="1000000"><br>
+        <br>
+        <p>5.Вкажіть ваш вік:</p><br>
+
+        <select name="age">
+          <option value="16-25">16-25</option>
+          <option value="25-35">25-35</option>
+          <option value="35-45">35-45</option>
+          <option value="45-65">45-65</option>
+          <option value="more than 65">більше 65</option>
+        </select>
+
+
+        <p>Заповніть свої дані</p>
+        <label>Ваше ім'я:
+          <input type="text" placeholder="ім'я" name="name">
+        </label>
+        <br>
+        <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" name="user-email">
+            <br>
+          <input type="submit" value="Надіслати">
+  </form>
+
+</body>
+</html>
